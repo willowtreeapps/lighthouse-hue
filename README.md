@@ -1,14 +1,16 @@
+![Lighthouse Octopus Pun](https://en.1jux.net/scale_images/218118_b.jpg "Lighthouse Octopus Pun")
+
 [Lighthouse](https://github.com/GoogleChrome/lighthouse) changing the color
 of [Philips Hue](https://www.developers.meethue.com/philips-hue-api) light bulbs
 based on overall report score.
 
 ### Get started
 
-    yarn install
+    npm install
 
 If you've already installed the app and just want to pull the latest deps:
 
-    yarn upgrade
+   npm upgrade
 
 ### Run it
 
@@ -16,7 +18,7 @@ If you've already installed the app and just want to pull the latest deps:
 
 To run "kiosk mode", use:
 
-    yarn kiosk
+    npm run kiosk
 
 This will start a webserver and open two browser windows to the app. One is a
 kiosk UI (http://localhost:8080?kiosk) that you should drag to a larger monitor
@@ -26,15 +28,15 @@ and the other is where users input a URL to test Lighthouse (http://localhost:80
 
 To only start a webserver, use:
 
-    yarn start
+    npm start
 
 #### Running stable Chrome
 
 To run a different version of Chrome (e.g. Stable), specify the `CHROME_PATH` env variable:
 
 ```
-CHROME_PATH="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" yarn start
-CHROME_PATH="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" yarn kiosk
+CHROME_PATH="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" npm start
+CHROME_PATH="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" npm kiosk
 ```
 
 ### Setup it
